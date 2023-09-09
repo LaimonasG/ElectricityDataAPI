@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sfg1RMQQ6ndqPq2twJqzMB0dKY5JZcuUvCDraxJR6gPG9DlY8v9843inNh6d74+mgITDgyIbsi+xFe9g4avxxQ==",
+  "dgSpecHash": "EeqNZfK8TLSsZobyI48hUIPU+/YJ8GguY3htarJwnUw/+6gMRlJTJ7P5EZMDGmUBurmYc7hAU1V/e1nPGHHoJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\laimi\\Desktop\\girteka2\\ElectricityDataAPI2-master\\Girteka_task_tests\\Girteka_task_tests.csproj",
+  "projectFilePath": "C:\\Users\\laimi\\Desktop\\girteka22\\Girteka_task_tests\\Girteka_task_tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\laimi\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\laimi\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

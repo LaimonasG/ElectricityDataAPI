@@ -353,45 +353,5 @@ namespace Girteka_task_tests
             // Assert
             Assert.Null(result);
         }
-
-        [Fact]
-        public void IsValidUrl_WithValidUrl_ReturnsFalse()
-        {
-            // Arrange
-            string badUrl = "https:/data.gov.lt/dataset/1975/download/10746/2020-06.csv";           
-
-            // Act
-            var result = _NetworkObjectRepository.IsValidUrl(badUrl);
-
-            // Assert
-            Assert.False(result);
-        }
-
-        [Fact]
-        public void IsValidUrl_WithInvalidUrl_ReturnsTrue()
-        {
-            // Arrange
-            string badUrl = "https://data.gov.lt/dataset/1975/download/10746/2020-06.csv";
-
-            // Act
-            var result = _NetworkObjectRepository.IsValidUrl(badUrl);
-
-            // Assert
-            Assert.True(result);
-        }
-
-        [Fact]
-        public void IsValidUrl_WithEmptyURL_ReturnsFalse()
-        {
-            // Arrange
-            string badUrl = "";
-
-            // Act
-            var result = _NetworkObjectRepository.IsValidUrl(badUrl);
-
-            // Assert
-            Assert.False(result);
-        }
-
     }
 }

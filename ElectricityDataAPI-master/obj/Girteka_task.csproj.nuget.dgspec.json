@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\laimi\\Desktop\\girteka2\\ElectricityDataAPI2-master\\ElectricityDataAPI-master\\Girteka_task.csproj": {}
+    "C:\\Users\\laimi\\Desktop\\girteka22\\ElectricityDataAPI-master\\Girteka_task.csproj": {}
   },
   "projects": {
-    "C:\\Users\\laimi\\Desktop\\girteka2\\ElectricityDataAPI2-master\\ElectricityDataAPI-master\\Girteka_task.csproj": {
+    "C:\\Users\\laimi\\Desktop\\girteka22\\ElectricityDataAPI-master\\Girteka_task.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laimi\\Desktop\\girteka2\\ElectricityDataAPI2-master\\ElectricityDataAPI-master\\Girteka_task.csproj",
+        "projectUniqueName": "C:\\Users\\laimi\\Desktop\\girteka22\\ElectricityDataAPI-master\\Girteka_task.csproj",
         "projectName": "Girteka_task",
-        "projectPath": "C:\\Users\\laimi\\Desktop\\girteka2\\ElectricityDataAPI2-master\\ElectricityDataAPI-master\\Girteka_task.csproj",
+        "projectPath": "C:\\Users\\laimi\\Desktop\\girteka22\\ElectricityDataAPI-master\\Girteka_task.csproj",
         "packagesPath": "C:\\Users\\laimi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laimi\\Desktop\\girteka2\\ElectricityDataAPI2-master\\ElectricityDataAPI-master\\obj\\",
+        "outputPath": "C:\\Users\\laimi\\Desktop\\girteka22\\ElectricityDataAPI-master\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

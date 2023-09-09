@@ -20,7 +20,6 @@ namespace Girteka_task.Data.Repositories
         List<NetworkObjectData> FilterData(List<NetworkObjectData> data, obj_type type);
         List<NetworkObjectData> GroupByField<T>(List<NetworkObjectData> data, Func<NetworkObjectData, T> fieldSelector);
         Func<NetworkObjectData, T> GetGroupingDelegate<T>(string fieldName);
-        bool IsValidUrl(string url);
     }
 
     public class NetworkObjectRepository : INetworkObjectRepository
@@ -192,13 +191,5 @@ namespace Girteka_task.Data.Repositories
                     return null;
             }
         }
-
-        public bool IsValidUrl(string url)
-        {
-            string pattern = @"^(https?|ftp)://[^\s/$.?#].[^\s]*$";
-            Regex regex = new Regex(pattern);
-            return regex.IsMatch(url);
-        }
-
     }
 }
