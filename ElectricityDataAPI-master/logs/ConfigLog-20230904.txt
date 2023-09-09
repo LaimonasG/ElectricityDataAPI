@@ -1,0 +1,105 @@
+2023-09-04 11:16:23.941 +03:00 [INF] Now listening on: https://localhost:7172
+2023-09-04 11:16:24.001 +03:00 [INF] Now listening on: http://localhost:5162
+2023-09-04 11:16:24.008 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 11:16:24.009 +03:00 [INF] Hosting environment: Development
+2023-09-04 11:16:24.009 +03:00 [INF] Content root path: D:\laimi\Girteka_task\
+2023-09-04 11:16:27.121 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7172/ - -
+2023-09-04 11:16:27.277 +03:00 [INF] HTTP GET / responded 404 in 39.6193 ms
+2023-09-04 11:16:27.300 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7172/ - - - 404 0 - 184.9634ms
+2023-09-04 11:16:28.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7172/favicon.ico - -
+2023-09-04 11:16:28.860 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\laimi\Girteka_task\wwwroot\favicon.ico'
+2023-09-04 11:16:28.874 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7172/favicon.ico - - - 200 5430 image/x-icon 247.0016ms
+2023-09-04 11:17:18.306 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7172/api/test application/json 74
+2023-09-04 11:17:18.477 +03:00 [INF] Executing endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:17:18.958 +03:00 [INF] Route matched with {action = "GetTesting", controller = "NetworkObject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetTesting(System.String) on controller Girteka_task.Controllers.NetworkObjectController (Girteka_task).
+2023-09-04 11:17:19.496 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-09-04 11:17:19.567 +03:00 [INF] Executed action Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task) in 599.501ms
+2023-09-04 11:17:19.569 +03:00 [INF] Executed endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:17:19.569 +03:00 [INF] HTTP GET /api/test responded 400 in 1107.3417 ms
+2023-09-04 11:17:19.576 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7172/api/test application/json 74 - 400 - application/problem+json;+charset=utf-8 1269.4823ms
+2023-09-04 11:18:27.147 +03:00 [INF] Now listening on: https://localhost:7172
+2023-09-04 11:18:27.189 +03:00 [INF] Now listening on: http://localhost:5162
+2023-09-04 11:18:27.194 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 11:18:27.195 +03:00 [INF] Hosting environment: Development
+2023-09-04 11:18:27.195 +03:00 [INF] Content root path: D:\laimi\Girteka_task\
+2023-09-04 11:18:28.887 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7172/ - -
+2023-09-04 11:18:29.011 +03:00 [INF] HTTP GET / responded 404 in 43.6785 ms
+2023-09-04 11:18:29.027 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7172/ - - - 404 0 - 146.5706ms
+2023-09-04 11:18:31.443 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7172/api/test multipart/form-data;+boundary=--------------------------772689290345469633394660 224
+2023-09-04 11:18:31.464 +03:00 [INF] Executing endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:18:31.609 +03:00 [INF] Route matched with {action = "GetTesting", controller = "NetworkObject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetTesting(System.String) on controller Girteka_task.Controllers.NetworkObjectController (Girteka_task).
+2023-09-04 11:18:36.098 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-04 11:18:36.110 +03:00 [INF] Executed action Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task) in 4490.2396ms
+2023-09-04 11:18:36.111 +03:00 [INF] Executed endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:18:36.111 +03:00 [INF] HTTP GET /api/test responded 200 in 4667.0038 ms
+2023-09-04 11:18:36.119 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7172/api/test multipart/form-data;+boundary=--------------------------772689290345469633394660 224 - 200 0 text/plain;+charset=utf-8 4675.5680ms
+2023-09-04 11:18:57.469 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7172/api/test multipart/form-data;+boundary=--------------------------118764835082362867205424 224
+2023-09-04 11:18:57.470 +03:00 [INF] Executing endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:18:57.470 +03:00 [INF] Route matched with {action = "GetTesting", controller = "NetworkObject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetTesting(System.String) on controller Girteka_task.Controllers.NetworkObjectController (Girteka_task).
+2023-09-04 11:24:17.512 +03:00 [INF] Now listening on: https://localhost:7172
+2023-09-04 11:24:17.557 +03:00 [INF] Now listening on: http://localhost:5162
+2023-09-04 11:24:17.563 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 11:24:17.563 +03:00 [INF] Hosting environment: Development
+2023-09-04 11:24:17.564 +03:00 [INF] Content root path: D:\laimi\Girteka_task\
+2023-09-04 11:24:20.010 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7172/ - -
+2023-09-04 11:24:20.533 +03:00 [INF] HTTP GET / responded 404 in 62.4064 ms
+2023-09-04 11:24:20.581 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7172/ - - - 404 0 - 578.8394ms
+2023-09-04 11:24:20.742 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7172/api/test multipart/form-data;+boundary=--------------------------234085829825730840822663 224
+2023-09-04 11:24:20.785 +03:00 [INF] Executing endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:24:20.934 +03:00 [INF] Route matched with {action = "GetTesting", controller = "NetworkObject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetTesting(System.String) on controller Girteka_task.Controllers.NetworkObjectController (Girteka_task).
+2023-09-04 11:24:21.477 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-04 11:24:21.490 +03:00 [INF] Executed action Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task) in 546.2133ms
+2023-09-04 11:24:21.491 +03:00 [INF] Executed endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:24:21.491 +03:00 [INF] HTTP GET /api/test responded 200 in 748.7440 ms
+2023-09-04 11:24:21.498 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7172/api/test multipart/form-data;+boundary=--------------------------234085829825730840822663 224 - 200 - text/plain;+charset=utf-8 755.4454ms
+2023-09-04 11:43:12.765 +03:00 [INF] Now listening on: https://localhost:7172
+2023-09-04 11:43:12.805 +03:00 [INF] Now listening on: http://localhost:5162
+2023-09-04 11:43:12.810 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 11:43:12.811 +03:00 [INF] Hosting environment: Development
+2023-09-04 11:43:12.811 +03:00 [INF] Content root path: D:\laimi\Girteka_task\
+2023-09-04 11:43:14.360 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7172/ - -
+2023-09-04 11:43:14.562 +03:00 [INF] HTTP GET / responded 404 in 112.0354 ms
+2023-09-04 11:43:14.585 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7172/ - - - 404 0 - 232.3334ms
+2023-09-04 11:46:40.618 +03:00 [INF] Now listening on: https://localhost:7172
+2023-09-04 11:46:40.859 +03:00 [INF] Now listening on: http://localhost:5162
+2023-09-04 11:46:40.865 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 11:46:40.866 +03:00 [INF] Hosting environment: Development
+2023-09-04 11:46:40.866 +03:00 [INF] Content root path: D:\laimi\Girteka_task\
+2023-09-04 11:46:41.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7172/ - -
+2023-09-04 11:46:42.052 +03:00 [INF] HTTP GET / responded 404 in 34.6576 ms
+2023-09-04 11:46:42.071 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7172/ - - - 404 0 - 120.4154ms
+2023-09-04 11:47:16.560 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7172/api/test multipart/form-data;+boundary=--------------------------472426436030300684378041 224
+2023-09-04 11:47:16.577 +03:00 [INF] Executing endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:47:16.686 +03:00 [INF] Route matched with {action = "GetTesting", controller = "NetworkObject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetTesting() on controller Girteka_task.Controllers.NetworkObjectController (Girteka_task).
+2023-09-04 11:47:16.995 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-04 11:47:17.027 +03:00 [INF] Executed action Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task) in 330.8149ms
+2023-09-04 11:47:17.028 +03:00 [INF] Executed endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:47:17.028 +03:00 [INF] HTTP GET /api/test responded 200 in 468.5751 ms
+2023-09-04 11:47:17.037 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7172/api/test multipart/form-data;+boundary=--------------------------472426436030300684378041 224 - 200 - text/plain;+charset=utf-8 476.9669ms
+2023-09-04 11:47:35.780 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7172/api/test multipart/form-data;+boundary=--------------------------374145932575786572458421 224
+2023-09-04 11:47:35.788 +03:00 [INF] Executing endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:47:35.789 +03:00 [INF] Route matched with {action = "GetTesting", controller = "NetworkObject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetTesting() on controller Girteka_task.Controllers.NetworkObjectController (Girteka_task).
+2023-09-04 11:51:07.637 +03:00 [INF] Now listening on: https://localhost:7172
+2023-09-04 11:51:07.692 +03:00 [INF] Now listening on: http://localhost:5162
+2023-09-04 11:51:07.698 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 11:51:07.699 +03:00 [INF] Hosting environment: Development
+2023-09-04 11:51:07.699 +03:00 [INF] Content root path: D:\laimi\Girteka_task\
+2023-09-04 11:51:08.622 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7172/api/test multipart/form-data;+boundary=--------------------------791939099619018064147240 226
+2023-09-04 11:51:08.784 +03:00 [INF] Executing endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:51:09.280 +03:00 [INF] Route matched with {action = "GetTesting", controller = "NetworkObject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetTesting(System.String) on controller Girteka_task.Controllers.NetworkObjectController (Girteka_task).
+2023-09-04 11:51:09.689 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7172/ - -
+2023-09-04 11:51:09.774 +03:00 [INF] HTTP GET / responded 404 in 0.2587 ms
+2023-09-04 11:51:09.833 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7172/ - - - 404 0 - 144.3536ms
+2023-09-04 11:51:11.153 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-04 11:51:11.168 +03:00 [INF] Executed action Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task) in 1877.1453ms
+2023-09-04 11:51:11.170 +03:00 [INF] Executed endpoint 'Girteka_task.Controllers.NetworkObjectController.GetTesting (Girteka_task)'
+2023-09-04 11:51:11.170 +03:00 [INF] HTTP GET /api/test responded 200 in 2462.1072 ms
+2023-09-04 11:51:11.208 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7172/api/test multipart/form-data;+boundary=--------------------------791939099619018064147240 226 - 200 - text/plain;+charset=utf-8 2611.7930ms
+2023-09-04 11:59:20.591 +03:00 [INF] Now listening on: https://localhost:7172
+2023-09-04 11:59:20.634 +03:00 [INF] Now listening on: http://localhost:5162
+2023-09-04 11:59:20.639 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 11:59:20.640 +03:00 [INF] Hosting environment: Development
+2023-09-04 11:59:20.640 +03:00 [INF] Content root path: D:\laimi\Girteka_task\
+2023-09-04 11:59:22.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7172/ - -
+2023-09-04 11:59:22.800 +03:00 [INF] HTTP GET / responded 404 in 42.0405 ms
+2023-09-04 11:59:22.822 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7172/ - - - 404 0 - 189.9251ms

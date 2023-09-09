@@ -1,0 +1,17 @@
+﻿FROM mcr.microsoft.com/dotnet/sdk:6.0-focal AS build
+
+WORKDIR /app
+
+COPY ./Girteka_task.csproj .
+
+RUN dotnet restore "./Girteka_task.csproj" 
+COPY . .
+RUN dotnet publish "./Girteka_task.csproj" -c release -o /publish
+
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 as final
+WORKDIR /app
+COPY --from=build /publish .
+
+EXPOSE 7172
+
+ENTRYPOINT ["dotnet","Girteka_task.dll"]
