@@ -7707,26 +7707,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\laimi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\laimi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\laimi\\Desktop\\girteka22\\Girteka_task_tests\\Girteka_task_tests.csproj",
+      "projectUniqueName": "C:\\Users\\laimi\\OneDrive\\Desktop\\girteka22\\Girteka_task_tests\\Girteka_task_tests.csproj",
       "projectName": "Girteka_task_tests",
-      "projectPath": "C:\\Users\\laimi\\Desktop\\girteka22\\Girteka_task_tests\\Girteka_task_tests.csproj",
+      "projectPath": "C:\\Users\\laimi\\OneDrive\\Desktop\\girteka22\\Girteka_task_tests\\Girteka_task_tests.csproj",
       "packagesPath": "C:\\Users\\laimi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\laimi\\Desktop\\girteka22\\Girteka_task_tests\\obj\\",
+      "outputPath": "C:\\Users\\laimi\\OneDrive\\Desktop\\girteka22\\Girteka_task_tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\laimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7740,8 +7733,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\laimi\\Desktop\\girteka22\\ElectricityDataAPI-master\\Girteka_task.csproj": {
-              "projectPath": "C:\\Users\\laimi\\Desktop\\girteka22\\ElectricityDataAPI-master\\Girteka_task.csproj"
+            "C:\\Users\\laimi\\OneDrive\\Desktop\\girteka22\\ElectricityDataAPI-master\\Girteka_task.csproj": {
+              "projectPath": "C:\\Users\\laimi\\OneDrive\\Desktop\\girteka22\\ElectricityDataAPI-master\\Girteka_task.csproj"
             }
           }
         }
@@ -7801,7 +7794,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
