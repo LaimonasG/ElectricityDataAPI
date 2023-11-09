@@ -10,3 +10,5 @@ Requirements:
 • Add logging  
 • Write unit tests for the main flow  
 • The app must run on docker  
+
+Unfortunatelly, the dataset is unavailable.
